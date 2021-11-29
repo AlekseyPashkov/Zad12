@@ -263,9 +263,9 @@ addActionButton.addEventListener('click', () => {
   if(!kindInput.value || !weightInput.value) {
   	alert("Не заполнено обязательное поле фрукта!");
   } else {
-	  let newFruitInFruits = {"kind": kindInput.value, "color": colorOfNewFruit, "weight": weightInput.value};
-	  fruits.push(newFruitInFruits);
-	  display();
+	let newFruitInFruits = {"kind": kindInput.value, "color": colorOfNewFruit, "weight": weightInput.value};
+	fruits.push(newFruitInFruits);
+	display();
   }
   /* проверка на незаполненность одного из полей, не проверяем цвет, т.к. по умолчанию будет черный */
 

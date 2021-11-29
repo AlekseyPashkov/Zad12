@@ -151,7 +151,7 @@ const sortAPI = {
   bubbleSort(arr, comparation) {
     // TODO: допишите функцию сортировки пузырьком
 
-    /*функция сортировки "пузырьком" чтобы работал метод sortAPI.startSort в листенере для sortActionButton*/
+	/*функция сортировки "пузырьком" чтобы работал метод sortAPI.startSort в листенере для sortActionButton*/
 	   const n = arr.length;
 	   for (let i = 0; i < n; i++) { 
 	       // внутренняя итерация для перестановки элемента в конец массива
@@ -171,7 +171,7 @@ const sortAPI = {
   quickSort(arr, comparation) {
     // TODO: допишите функцию быстрой сортировки
 
-    	/* функция самой сортировки */
+		/* функция самой сортировки */
 		function sortQuick(arr, left, right, comparation) {
 		    let i;
 		    if (arr.length > 1) {
